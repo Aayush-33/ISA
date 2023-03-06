@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body{
+            padding-left: 25%;
+            
+        }
+        form{
+            background-color: darkgray;
+            border: solid black;
+            border-radius: 2px;
+            width: 50%;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h1 style="color: darkblue;"><b>Herald College Kathmandu Survey Form</b></h1>
+    <div>
+    Name:<br> <input type="text" id="fname" name="fname" placeholder="Student">
+    </div>
+    <br>
+    <div>
+    Email:<br> <input type="email" id="Email" name="Email" placeholder="Email">
+    </div>
+    <br>
+    <div>
+    Age:<br> <input type="text" id="age" name="Age" placeholder="18-49">
+    </div>
+    <br>
+    <div>
+    Which option best describes you ?<br> 
+    <select>
+        <option>King</option>
+        <option>Sultan</option>
+        <option>Aayush</option>
+        <option>TOP G</option>
+    </select>
+    </div>
+    <br>
+    <div>
+    Would you recommend Herald College Kathmandu to a friend ?
+    <br> 
+    <input type="radio" id="recommend" name="recommend"> Yes
+    <br>
+    <input type="radio" id="recommend" name="recommend"> No
+    <br>
+    <input type="radio" id="recommend" name="recommend"> Maybe
+    </div>
+    <br>
+    <div>
+    Languages and Frameworks known (Check all that apply)<br>
+    <input type="checkbox" id="langu" name="langu"> C<br>
+    <input type="checkbox" id="langu" name="langu"> C++<br>
+    <input type="checkbox" id="langu" name="langu"> C#<br>
+    <input type="checkbox" id="langu" name="langu"> Java<br>
+    <input type="checkbox" id="langu" name="langu"> Python<br>
+    <input type="checkbox" id="langu" name="langu"> JS<br>
+    <input type="checkbox" id="langu" name="langu"> React<br>
+    <input type="checkbox" id="langu" name="langu"> Angular<br>
+    <input type="checkbox" id="langu" name="langu"> Django<br>
+    <input type="checkbox" id="langu" name="langu"> Spring<br>
+    </div>
+    <br>
+    <div>
+    Any comments or suggestions<br>
+    <textarea style="resize: none;" id="text" name="txt" placeholder="Suggestions"></textarea>
+    </div>
+    <br>
+    <div>
+    <input type="button" style="background-color:navajowhite; width: 50%; margin-left: 100px; height: 30px;" value="Submit">
+    </div>
+    </form>
+</body>
+</html>
